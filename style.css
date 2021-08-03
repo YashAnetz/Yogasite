@@ -142,6 +142,7 @@ section{
 
 .row .col img{
     width:  90% ;
+    margin: 10px;
   
     
    
@@ -179,21 +180,88 @@ h4{
 }
 
 
-p{
+.col p{
     margin: 10px auto;
     text-align: center;
 }
 
 .row .ctn
 {
-    margin: 10px;
+   
     align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    margin-top: 30px;
 }
 
 .row .col:hover
 {
     box-shadow: rgba(52, 33, 158, 0.35) 0px 10px 25px;
    
+}
+
+body , html{
+    overflow-x: hidden;
+}
+
+
+
+.Reviews
+{
+    width: 100%;
+    height: 60vh;
+
+    background-image: url("../Images/bac2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+  
+    display: flex;
+    
+}
+
+.reviewcontent
+{
+  
+    width: 60%;
+   padding: 30px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.reviewcontent h1{
+    font-size: 7vmin;
+    margin: 10px;
+
+}
+
+.reviewcontent p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.reviewcontent .ctn{
+  margin-top: 30px;
+
+}
+
+.reviewcontent .line
+{
+    margin-bottom: 50px;
+    background-color: rebeccapurple;
+}
+
+.reviewcontent
+{
+    background-color: rgba(95, 95, 95, 0.35);
+    margin: 10px;
+    border-radius: 1cm;
 }
 /*For mobile resposniev
 1024 x 576*/
@@ -247,6 +315,109 @@ p{
     .nav-links li{
         margin: 30px auto;
     }
+    .row 
+    {
+
+        align-items: center;
+        flex-direction: column;
+        margin: -20px;
+
+    }
+
+    .row .col
+    {
+        margin: 20px auto;
+    }
+
+    .col img{
+        max-width: 90%;
+    }
 }
 
+
+img{
+    transition: transform .3s ease;
+}
+
+img:hover
+{
+    transform: scale(1.09);
+}
+
+.ctn:hover
+{
+   background: none;
+   color: black;
+   border-style: solid;
+   border-width: 1px ;
+   font-weight: bold;
+}
+
+
+.footer
+{
+ 
+    left: 0;
+    bottom: 0;
+
+margin-bottom: 0;   
+ width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.con
+{
+    margin: 5px;
+    margin-left: 5px;
+}
+.call
+{ width: 30px;
+height: 30px; }
+
+.whatsapp
+{ width: 30px;
+height: 30px; }
+
+.Email
+{ width: 30px;
+height: 30px; }
+
+.contact
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 80vmin;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.contactcontent
+{
+    text-align: center;
+    margin: 20px;
+}
+
+.contactcontent .ctn{
+    display: flex;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+input{
+    margin: 5px;
+    padding: 6px;
+    border-radius: 10px;
+}
 
