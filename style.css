@@ -136,15 +136,67 @@ section{
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    background-color:grey;
+   margin: 3px;
 }
 
 
 .row .col img{
-    width:  80% ;
+    width:  90% ;
+  
+    
+   
     
 }
-/*For mobile resposniev*/
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding: 10px;
+   width: 330px;
+   height: 400px;
+    margin: 10px;
+    position: relative;
+    border-radius: 20px;
+    
+   
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.events .row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 3vmin;
+    color: grey;
+    margin: 20px auto;
+
+
+}
+
+
+p{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.row .ctn
+{
+    margin: 10px;
+    align-items: center;
+}
+
+.row .col:hover
+{
+    box-shadow: rgba(52, 33, 158, 0.35) 0px 10px 25px;
+   
+}
+/*For mobile resposniev
+1024 x 576*/
 
 
 @media only screen and (max-width:850px)
